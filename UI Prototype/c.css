@@ -1,0 +1,120 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#top-banner {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFAB57;
+}
+
+#logo {
+    margin-left: 6%;
+    width: 80px;
+    height: 65px;
+}
+
+#icon-container {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5px;
+    width: 250px;
+}
+
+.icons {
+    width: 10%;
+    height: 10%;
+}
+
+#main-content-container {
+    /* border: 2px solid red; */
+    display: flex;
+    height: 100%;
+    
+}
+
+#sidebar {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    background-color: #14213d;
+    color: aliceblue;
+    width: 25%;
+}
+
+.list-item-container {
+    border-bottom: 1px solid cornsilk;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px 10px;
+    align-items: center;
+    justify-items: ;
+}
+
+.list-item {
+    display: flex;
+    justify-items: start;
+}
+
+.list-item-icon-container {
+    /* border: 1px solid green; */
+    /* margin-right: 3px; */
+    margin-right: 5px;
+}
+.list-item-icon {
+    width: 25px;
+    height: 25px;
+}
+
+#main-content {
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 10px 10px;
+    background-color: #161616;
+    color: aliceblue;
+}
+
+#profile-picture-container {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+#profile-picture {
+    /* width: 15%; */
+    height: 55%;
+    border-radius: 50%;
+}
+
+#username {
+    font-size: medium;
+}
+
+#email {
+    font-size: smaller;
+}
+
+#business {
+    font-size: smaller;
+}
+
+#profile-info-container {
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
